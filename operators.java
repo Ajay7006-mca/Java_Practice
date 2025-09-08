@@ -18,7 +18,7 @@ public class operators {
         else{
             System.out.println(false);
         }
-   
+   sc.close();
     }
 }
 
