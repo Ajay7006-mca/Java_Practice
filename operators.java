@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class operators {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
@@ -11,8 +11,14 @@ public class operators {
         System.out.println(a-b);
         System.out.println(a*b);
         System.out.println(a/b);
-    sc.close();
-    
+        //Logical Operators
+        if(a==b && a<b){
+       System.out.println(true);
+        }
+        else{
+            System.out.println(false);
+        }
+   
     }
 }
 
